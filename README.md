@@ -102,13 +102,13 @@ Incluye el resultado completo de la ejecución de los tests. El mismo es modific
 ## 1. Clonar repositorio
 
 ```bash
-git clone URL_DEL_REPOSITORIO
+git clone https://github.com/wfacu/automated-testing-saucedemo.git
 ```
 
 ## 2. Ingresar a la carpeta
 
 ```bash
-cd NOMBRE_DEL_PROYECTO
+cd automated-testing-saucedemo
 ```
 
 ## 3. Instalar dependencias
