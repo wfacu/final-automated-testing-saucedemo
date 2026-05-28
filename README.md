@@ -1,8 +1,8 @@
-# SauceDemo | QA Automation Testing
+# automated-testing-saucedemo
 
-Proyecto de automatización de pruebas realizado con Python, Selenium y Pytest sobre la página demo de SauceDemo.
+Proyecto de automatización de pruebas sobre la página https://www.saucedemo.com/ utilizando Python, Selenium y Pytest.
 
-## Tecnologías utilizadas
+## Tecnologías usadas
 
 * Python
 * Selenium WebDriver
@@ -11,10 +11,10 @@ Proyecto de automatización de pruebas realizado con Python, Selenium y Pytest s
 
 ---
 
-# Project Tree
+# Estructura del proyecto
 
-```bash
-project/
+```txt
+automated-testing-saucedemo/
 │
 ├── logs/
 │   └── test_log.log
@@ -23,7 +23,7 @@ project/
 │   └── reporte.html
 │
 ├── screenshots/
-│   └── screenshots automáticos en caso de error
+│   └── capturas automáticas en caso de error
 │
 ├── tests/
 │   ├── conftest.py
@@ -40,78 +40,76 @@ project/
 
 ---
 
-# Funcionalidades automatizadas
+# ¿Qué valida este proyecto?
 
 ## Login
 
-* Inicio de sesión exitoso
-* Verificación de redirección al catálogo
+* Inicio de sesión correcto
+* Validación de acceso al inventario
 
-## Catálogo de productos
+## Catálogo
 
-* Validación de productos visibles
-* Verificación de menú lateral
-* Verificación de filtro de productos
+* Verificación de productos visibles
+* Validación de menú lateral
+* Validación de filtro de productos
 
 ## Carrito
 
 * Agregar productos al carrito
-* Validación de contador del carrito
-* Verificación de producto agregado
+* Verificación del contador
+* Validación del producto agregado
 
 ---
 
 # Evidencias automáticas
 
-El proyecto genera automáticamente:
+## Logs
 
-## Logs de ejecución
-
-Ubicación:
+Durante cada ejecución se genera un archivo `.log` dentro de:
 
 ```bash
-logs/test_log.log
+logs/
 ```
 
-Se registran eventos importantes de cada ejecución de tests.
+El mismo registra eventos importantes de los tests ejecutados.
+
+---
 
 ## Screenshots automáticos
 
-Ubicación:
+Si un test falla, automáticamente se genera una captura de pantalla dentro de:
 
 ```bash
 screenshots/
 ```
 
-Cuando un test falla, se genera automáticamente una captura de pantalla del error.
+---
 
 ## Reporte HTML
 
-Ubicación:
+Los reportes HTML se generan dentro de:
 
 ```bash
-reports/reporte.html
+reports/
 ```
-
-Incluye el resultado completo de la ejecución de los tests. El mismo es modificado si se ejecuta nuevamente y, por ejemplo, un test diera error.
 
 ---
 
 # Instalación
 
-## 1. Clonar repositorio
+## Clonar repositorio
 
 ```bash
 git clone https://github.com/wfacu/automated-testing-saucedemo.git
 ```
 
-## 2. Ingresar a la carpeta
+## Entrar al proyecto
 
 ```bash
 cd automated-testing-saucedemo
 ```
 
-## 3. Instalar dependencias
+## Instalar dependencias
 
 ```bash
 pip install -r requirements.txt
@@ -127,7 +125,7 @@ pip install -r requirements.txt
 pytest
 ```
 
-## Ejecutar tests con detalle
+## Ejecutar tests en modo verbose
 
 ```bash
 pytest -v
@@ -143,6 +141,4 @@ pytest -v --html=reports/reporte.html --self-contained-html
 
 # Datos externos
 
-Actualmente el proyecto no utiliza archivos externos como CSV o JSON.
-
----
+Actualmente el proyecto no utiliza archivos CSV o JSON externos.
