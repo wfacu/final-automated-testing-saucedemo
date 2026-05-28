@@ -1,0 +1,40 @@
+2026-05-27 22:44:48,222 - INFO - Driver iniciado
+2026-05-27 22:44:51,058 - INFO - Driver cerrado
+2026-05-27 22:44:56,421 - INFO - Driver iniciado
+2026-05-27 22:44:57,103 - ERROR - Test fallido: test_verificacion_catalogo
+2026-05-27 22:44:57,103 - ERROR - Screenshot guardado en: screenshots/test_verificacion_catalogo_2026-05-27_22-44-57.png
+2026-05-27 22:44:59,343 - INFO - Driver cerrado
+2026-05-27 22:45:00,594 - INFO - Driver iniciado
+2026-05-27 22:45:03,244 - INFO - Driver cerrado
+2026-05-27 22:45:56,159 - INFO - Driver iniciado
+2026-05-27 22:45:58,916 - INFO - Driver cerrado
+2026-05-27 22:46:04,229 - INFO - Driver iniciado
+2026-05-27 22:46:04,863 - ERROR - Test fallido: test_verificacion_catalogo
+2026-05-27 22:46:04,864 - ERROR - Screenshot guardado en: screenshots/test_verificacion_catalogo_2026-05-27_22-46-04.png
+2026-05-27 22:46:07,084 - INFO - Driver cerrado
+2026-05-27 22:46:08,295 - INFO - Driver iniciado
+2026-05-27 22:46:10,949 - INFO - Driver cerrado
+2026-05-27 22:46:57,728 - INFO - Driver iniciado
+2026-05-27 22:47:00,774 - INFO - Driver cerrado
+2026-05-27 22:47:06,111 - INFO - Driver iniciado
+2026-05-27 22:47:06,783 - ERROR - Test fallido: test_verificacion_catalogo
+2026-05-27 22:47:06,784 - ERROR - Screenshot guardado en: screenshots/test_verificacion_catalogo_2026-05-27_22-47-06.png
+2026-05-27 22:47:08,995 - INFO - Driver cerrado
+2026-05-27 22:47:10,232 - INFO - Driver iniciado
+2026-05-27 22:47:12,919 - INFO - Driver cerrado
+2026-05-27 22:47:34,423 - INFO - Driver iniciado
+2026-05-27 22:47:37,197 - INFO - Driver cerrado
+2026-05-27 22:47:42,538 - INFO - Driver iniciado
+2026-05-27 22:47:43,194 - ERROR - Test fallido: test_verificacion_catalogo
+2026-05-27 22:47:43,194 - ERROR - Screenshot guardado en: screenshots/test_verificacion_catalogo_2026-05-27_22-47-43.png
+2026-05-27 22:47:45,419 - INFO - Driver cerrado
+2026-05-27 22:47:46,662 - INFO - Driver iniciado
+2026-05-27 22:47:49,326 - INFO - Driver cerrado
+2026-05-27 22:48:27,517 - INFO - Driver iniciado
+2026-05-27 22:48:30,338 - INFO - Driver cerrado
+2026-05-27 22:48:35,659 - INFO - Driver iniciado
+2026-05-27 22:48:36,279 - ERROR - Test fallido: test_verificacion_catalogo
+2026-05-27 22:48:36,279 - ERROR - Screenshot guardado en: screenshots/test_verificacion_catalogo_2026-05-27_22-48-36.png
+2026-05-27 22:48:38,478 - INFO - Driver cerrado
+2026-05-27 22:48:39,700 - INFO - Driver iniciado
+2026-05-27 22:48:42,368 - INFO - Driver cerrado
