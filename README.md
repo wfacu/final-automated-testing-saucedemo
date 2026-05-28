@@ -1,6 +1,6 @@
 # automated-testing-saucedemo
 
-Proyecto de automatización de pruebas sobre la página https://www.saucedemo.com/ utilizando Python, Selenium y Pytest.
+Proyecto de automatización de pruebas sobre la página https://www.saucedemo.com/.
 
 ## Tecnologías usadas
 
