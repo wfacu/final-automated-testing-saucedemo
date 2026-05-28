@@ -146,5 +146,3 @@ pytest -v --html=reports/reporte.html --self-contained-html
 Actualmente el proyecto no utiliza archivos externos como CSV o JSON.
 
 ---
-
-Proyecto realizado por Facundo como práctica de QA Automation Testing.
