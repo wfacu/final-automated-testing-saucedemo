@@ -1,47 +1,37 @@
-from selenium.webdriver.common.by import By
-
-from utils.functions import login
+from pages.login_page import LoginPage
+from pages.inventory_page import InventoryPage
 
 
 def test_verificacion_catalogo(driver):
 
-    login(driver)
+    login = LoginPage(driver)
+    inventory = InventoryPage(driver)
 
-    titulo = driver.find_element(
-        By.CLASS_NAME,
-        "title"
-    ).text
+    login.open()
+    login.login("standard_user", "secret_sauce")
 
-    assert titulo == "Products"
+    assert inventory.get_title() == "Products"
 
-    productos = driver.find_elements(
-        By.CLASS_NAME,
-        "inventory_item"
-    )
+    productos = inventory.get_products()
 
     assert len(productos) > 0
 
-    primer_producto = productos[0]
+    nombre = inventory.get_first_product_name()
 
-    nombre = primer_producto.find_element(
-        By.CLASS_NAME,
-        "inventory_item_name"
-    ).text
-
-    precio = primer_producto.find_element(
-        By.CLASS_NAME,
+    precio = productos[0].find_element(
+        "class name",
         "inventory_item_price"
     ).text
 
     print(f"Primer producto: {nombre} - {precio}")
 
     menu = driver.find_element(
-        By.ID,
+        "id",
         "react-burger-menu-btn"
     )
 
     filtro = driver.find_element(
-        By.CLASS_NAME,
+        "class name",
         "product_sort_container"
     )
 

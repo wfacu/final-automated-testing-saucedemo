@@ -1,13 +1,17 @@
-from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-from utils.functions import login
+from pages.login_page import LoginPage
+from pages.inventory_page import InventoryPage
 
 
 def test_login_exitoso(driver):
 
-    login(driver)
+    login = LoginPage(driver)
+    inventory = InventoryPage(driver)
+
+    login.open()
+    login.login("standard_user", "secret_sauce")
 
     wait = WebDriverWait(driver, 10)
 
@@ -15,11 +19,5 @@ def test_login_exitoso(driver):
         EC.url_contains("/inventory.html")
     )
 
-    titulo = wait.until(
-        EC.visibility_of_element_located(
-            (By.CLASS_NAME, "title")
-        )
-    )
-
     assert "/inventory.html" in driver.current_url
-    assert titulo.text == "Products"
+    assert inventory.get_title() == "Producto"

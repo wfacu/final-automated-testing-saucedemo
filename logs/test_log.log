@@ -1,40 +1,60 @@
-2026-05-27 22:44:48,222 - INFO - Driver iniciado
-2026-05-27 22:44:51,058 - INFO - Driver cerrado
-2026-05-27 22:44:56,421 - INFO - Driver iniciado
-2026-05-27 22:44:57,103 - ERROR - Test fallido: test_verificacion_catalogo
-2026-05-27 22:44:57,103 - ERROR - Screenshot guardado en: screenshots/test_verificacion_catalogo_2026-05-27_22-44-57.png
-2026-05-27 22:44:59,343 - INFO - Driver cerrado
-2026-05-27 22:45:00,594 - INFO - Driver iniciado
-2026-05-27 22:45:03,244 - INFO - Driver cerrado
-2026-05-27 22:45:56,159 - INFO - Driver iniciado
-2026-05-27 22:45:58,916 - INFO - Driver cerrado
-2026-05-27 22:46:04,229 - INFO - Driver iniciado
-2026-05-27 22:46:04,863 - ERROR - Test fallido: test_verificacion_catalogo
-2026-05-27 22:46:04,864 - ERROR - Screenshot guardado en: screenshots/test_verificacion_catalogo_2026-05-27_22-46-04.png
-2026-05-27 22:46:07,084 - INFO - Driver cerrado
-2026-05-27 22:46:08,295 - INFO - Driver iniciado
-2026-05-27 22:46:10,949 - INFO - Driver cerrado
-2026-05-27 22:46:57,728 - INFO - Driver iniciado
-2026-05-27 22:47:00,774 - INFO - Driver cerrado
-2026-05-27 22:47:06,111 - INFO - Driver iniciado
-2026-05-27 22:47:06,783 - ERROR - Test fallido: test_verificacion_catalogo
-2026-05-27 22:47:06,784 - ERROR - Screenshot guardado en: screenshots/test_verificacion_catalogo_2026-05-27_22-47-06.png
-2026-05-27 22:47:08,995 - INFO - Driver cerrado
-2026-05-27 22:47:10,232 - INFO - Driver iniciado
-2026-05-27 22:47:12,919 - INFO - Driver cerrado
-2026-05-27 22:47:34,423 - INFO - Driver iniciado
-2026-05-27 22:47:37,197 - INFO - Driver cerrado
-2026-05-27 22:47:42,538 - INFO - Driver iniciado
-2026-05-27 22:47:43,194 - ERROR - Test fallido: test_verificacion_catalogo
-2026-05-27 22:47:43,194 - ERROR - Screenshot guardado en: screenshots/test_verificacion_catalogo_2026-05-27_22-47-43.png
-2026-05-27 22:47:45,419 - INFO - Driver cerrado
-2026-05-27 22:47:46,662 - INFO - Driver iniciado
-2026-05-27 22:47:49,326 - INFO - Driver cerrado
-2026-05-27 22:48:27,517 - INFO - Driver iniciado
-2026-05-27 22:48:30,338 - INFO - Driver cerrado
-2026-05-27 22:48:35,659 - INFO - Driver iniciado
-2026-05-27 22:48:36,279 - ERROR - Test fallido: test_verificacion_catalogo
-2026-05-27 22:48:36,279 - ERROR - Screenshot guardado en: screenshots/test_verificacion_catalogo_2026-05-27_22-48-36.png
-2026-05-27 22:48:38,478 - INFO - Driver cerrado
-2026-05-27 22:48:39,700 - INFO - Driver iniciado
-2026-05-27 22:48:42,368 - INFO - Driver cerrado
+2026-07-05 16:34:59,939 - INFO - Driver iniciado
+2026-07-05 16:35:04,104 - INFO - Driver cerrado
+2026-07-05 16:35:09,513 - INFO - Driver iniciado
+2026-07-05 16:35:12,251 - INFO - Driver cerrado
+2026-07-05 16:35:17,672 - INFO - Driver iniciado
+2026-07-05 16:35:20,877 - INFO - Driver cerrado
+2026-07-05 16:35:26,236 - INFO - Driver iniciado
+2026-07-05 16:35:28,924 - INFO - Driver cerrado
+2026-07-05 16:35:34,309 - INFO - Driver iniciado
+2026-07-05 16:35:36,961 - INFO - Driver cerrado
+2026-07-05 16:37:02,221 - INFO - Driver iniciado
+2026-07-05 16:37:05,162 - INFO - Driver cerrado
+2026-07-05 16:37:10,555 - INFO - Driver iniciado
+2026-07-05 16:37:13,357 - INFO - Driver cerrado
+2026-07-05 16:37:18,773 - INFO - Driver iniciado
+2026-07-05 16:37:21,771 - INFO - Driver cerrado
+2026-07-05 16:37:27,143 - INFO - Driver iniciado
+2026-07-05 16:37:29,869 - INFO - Driver cerrado
+2026-07-05 16:37:35,226 - INFO - Driver iniciado
+2026-07-05 16:37:37,885 - INFO - Driver cerrado
+2026-07-05 16:50:47,821 - INFO - Driver iniciado
+2026-07-05 16:50:47,821 - INFO - Abriendo SauceDemo
+2026-07-05 16:50:48,370 - INFO - Intentando login con usuario: standard_user
+2026-07-05 16:50:48,526 - INFO - Obteniendo listado de productos
+2026-07-05 16:50:48,548 - INFO - Agregando primer producto al carrito
+2026-07-05 16:50:48,548 - INFO - Obteniendo listado de productos
+2026-07-05 16:50:48,592 - INFO - Consultando cantidad de productos en el carrito
+2026-07-05 16:50:48,604 - INFO - Abriendo carrito
+2026-07-05 16:50:48,647 - INFO - Obteniendo nombre del producto en el carrito
+2026-07-05 16:50:50,920 - INFO - Driver cerrado
+2026-07-05 16:50:56,361 - INFO - Driver iniciado
+2026-07-05 16:50:56,361 - INFO - Abriendo SauceDemo
+2026-07-05 16:50:56,766 - INFO - Intentando login con usuario: standard_user
+2026-07-05 16:50:56,966 - INFO - Obteniendo título del catálogo
+2026-07-05 16:50:56,985 - INFO - Obteniendo listado de productos
+2026-07-05 16:50:56,992 - INFO - Obteniendo listado de productos
+2026-07-05 16:50:59,261 - INFO - Driver cerrado
+2026-07-05 16:51:04,634 - INFO - Driver iniciado
+2026-07-05 16:51:04,634 - INFO - Abriendo SauceDemo
+2026-07-05 16:51:04,870 - INFO - Intentando login con usuario: standard_user
+2026-07-05 16:51:05,043 - INFO - Agregando primer producto al carrito
+2026-07-05 16:51:05,043 - INFO - Obteniendo listado de productos
+2026-07-05 16:51:05,097 - INFO - Abriendo carrito
+2026-07-05 16:51:05,159 - INFO - Ingresando al checkout
+2026-07-05 16:51:05,197 - INFO - Completando datos del comprador
+2026-07-05 16:51:05,361 - INFO - Finalizando compra
+2026-07-05 16:51:05,402 - INFO - Obteniendo mensaje de confirmación
+2026-07-05 16:51:07,627 - INFO - Driver cerrado
+2026-07-05 16:51:13,005 - INFO - Driver iniciado
+2026-07-05 16:51:13,006 - INFO - Abriendo SauceDemo
+2026-07-05 16:51:13,423 - INFO - Intentando login con usuario: standard_user
+2026-07-05 16:51:13,613 - INFO - Obteniendo título del catálogo
+2026-07-05 16:51:13,836 - ERROR - Test fallido: test_login_exitoso
+2026-07-05 16:51:13,836 - ERROR - Screenshot guardado en: screenshots/test_login_exitoso_2026-07-05_16-51-13.png
+2026-07-05 16:51:16,063 - INFO - Driver cerrado
+2026-07-05 16:51:17,336 - INFO - Driver iniciado
+2026-07-05 16:51:17,336 - INFO - Abriendo SauceDemo
+2026-07-05 16:51:17,562 - INFO - Intentando login con usuario: usuario_invalido
+2026-07-05 16:51:17,716 - INFO - Obteniendo mensaje de error del login
+2026-07-05 16:51:19,967 - INFO - Driver cerrado
