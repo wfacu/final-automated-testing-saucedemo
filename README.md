@@ -1,23 +1,36 @@
-# automated-testing-saucedemo
+# final-automated-testing-saucedemo
 
-Proyecto de automatización de pruebas sobre la página https://www.saucedemo.com/.
+Framework de automatización de pruebas desarrollado sobre https://www.saucedemo.com/ para pruebas de interfaz web y https://reqres.in/ para pruebas de API.
 
-## Tecnologías usadas
+El proyecto implementa Selenium WebDriver, Pytest, Requests y el patrón de diseño Page Object Model (POM), además de reportes HTML, logging y capturas automáticas en caso de error.
 
-* Python
-* Selenium WebDriver
-* Pytest
-* Pytest HTML
+---
+
+# Tecnologías utilizadas
+
+- Python
+- Selenium WebDriver
+- Pytest
+- Requests
+- Pytest HTML
+- Git
+- GitHub
 
 ---
 
 # Estructura del proyecto
 
-```txt
-automated-testing-saucedemo/
+```text
+final-automated-testing-saucedemo/
 │
 ├── logs/
 │   └── test_log.log
+│
+├── pages/
+│   ├── login_page.py
+│   ├── inventory_page.py
+│   ├── cart_page.py
+│   └── checkout_page.py
 │
 ├── reports/
 │   └── reporte.html
@@ -25,11 +38,19 @@ automated-testing-saucedemo/
 ├── screenshots/
 │   └── capturas automáticas en caso de error
 │
+├── test_data/
+│   └── users.json
+│
 ├── tests/
 │   ├── conftest.py
 │   ├── test_login.py
+│   ├── test_login_invalido.py
 │   ├── test_catalogo.py
-│   └── test_carrito.py
+│   ├── test_carrito.py
+│   ├── test_checkout.py
+│   ├── test_api_get.py
+│   ├── test_api_post.py
+│   └── test_api_delete.py
 │
 ├── utils/
 │   └── functions.py
@@ -40,73 +61,99 @@ automated-testing-saucedemo/
 
 ---
 
-# ¿Qué valida este proyecto?
+# Funcionalidades implementadas
 
-## Login
+## Pruebas UI
 
-* Inicio de sesión correcto
-* Validación de acceso al inventario
+- Login exitoso
+- Login con credenciales inválidas
+- Validación del catálogo de productos
+- Agregado de productos al carrito
+- Flujo completo de checkout
 
-## Catálogo
+---
 
-* Verificación de productos visibles
-* Validación de menú lateral
-* Validación de filtro de productos
+## Pruebas API
 
-## Carrito
+- Peticiones GET
+- Peticiones POST
+- Peticiones DELETE
+- Validación de códigos de estado HTTP
+- Validación del contenido de las respuestas JSON
 
-* Agregar productos al carrito
-* Verificación del contador
-* Validación del producto agregado
+---
+
+## Page Object Model
+
+La automatización de la interfaz web se encuentra organizada utilizando el patrón **Page Object Model (POM)**, separando la lógica de interacción con la aplicación de la lógica de las pruebas.
 
 ---
 
 # Evidencias automáticas
 
-## Logs
+## Logging
 
-Durante cada ejecución se genera un archivo `.log` dentro de:
+Durante la ejecución se genera un archivo de log en:
 
-```bash
+```text
 logs/
 ```
 
-El mismo registra eventos importantes de los tests ejecutados.
+El mismo registra los principales eventos de la ejecución para facilitar la depuración.
 
 ---
 
 ## Screenshots automáticos
 
-Si un test falla, automáticamente se genera una captura de pantalla dentro de:
+Cuando una prueba falla, automáticamente se genera una captura de pantalla en:
 
-```bash
+```text
 screenshots/
 ```
+
+El nombre del archivo incluye el nombre del test y la fecha/hora de ejecución.
 
 ---
 
 ## Reporte HTML
 
-Los reportes HTML se generan dentro de:
+Los resultados pueden visualizarse mediante un reporte HTML generado en:
 
-```bash
+```text
 reports/
+```
+
+El reporte muestra:
+
+- Tests ejecutados
+- Estado de cada prueba
+- Tiempo de ejecución
+- Información detallada de los resultados
+
+---
+
+# Datos de prueba
+
+Los datos utilizados para las pruebas parametrizadas se almacenan en archivos JSON dentro de:
+
+```text
+test_data/
 ```
 
 ---
 
 # Instalación
 
-## Clonar repositorio
+## Clonar el repositorio
 
 ```bash
-git clone https://github.com/wfacu/automated-testing-saucedemo.git
+git clone https://github.com/wfacu/final-automated-testing-saucedemo.git
 ```
 
-## Entrar al proyecto
+## Ingresar al proyecto
 
 ```bash
-cd automated-testing-saucedemo
+cd final-automated-testing-saucedemo
 ```
 
 ## Instalar dependencias
@@ -117,15 +164,15 @@ pip install -r requirements.txt
 
 ---
 
-# Ejecución de tests
+# Ejecución
 
-## Ejecutar todos los tests
+## Ejecutar todas las pruebas
 
 ```bash
 pytest
 ```
 
-## Ejecutar tests en modo verbose
+## Ejecutar en modo verbose
 
 ```bash
 pytest -v
@@ -139,6 +186,6 @@ pytest -v --html=reports/reporte.html --self-contained-html
 
 ---
 
-# Datos externos
+# Autor
 
-Actualmente el proyecto no utiliza archivos CSV o JSON externos.
+Facundo
