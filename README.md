@@ -188,4 +188,4 @@ pytest -v --html=reports/reporte.html --self-contained-html
 
 # Autor
 
-Facundo
+Facundo Pall
